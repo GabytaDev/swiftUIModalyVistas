@@ -11,6 +11,11 @@
 		DD26C03929C3C6CB00303499 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD26C03829C3C6CB00303499 /* ContentView.swift */; };
 		DD26C03B29C3C6CC00303499 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD26C03A29C3C6CC00303499 /* Assets.xcassets */; };
 		DD26C03E29C3C6CC00303499 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD26C03D29C3C6CC00303499 /* Preview Assets.xcassets */; };
+		DD26C04529C3C73F00303499 /* ventanaModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD26C04429C3C73E00303499 /* ventanaModal.swift */; };
+		DD26C04929C7720300303499 /* SegundaVista.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD26C04829C7720300303499 /* SegundaVista.swift */; };
+		DD26C04B29C773A200303499 /* TercerVista.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD26C04A29C773A200303499 /* TercerVista.swift */; };
+		DD3A9FA029C89C6D00B3DCB3 /* TabViewMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3A9F9F29C89C6D00B3DCB3 /* TabViewMain.swift */; };
+		DD3A9FA229C89DDF00B3DCB3 /* VistaNueva.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3A9FA129C89DDF00B3DCB3 /* VistaNueva.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		DD26C03829C3C6CB00303499 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DD26C03A29C3C6CC00303499 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD26C03D29C3C6CC00303499 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD26C04429C3C73E00303499 /* ventanaModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ventanaModal.swift; sourceTree = "<group>"; };
+		DD26C04829C7720300303499 /* SegundaVista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegundaVista.swift; sourceTree = "<group>"; };
+		DD26C04A29C773A200303499 /* TercerVista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TercerVista.swift; sourceTree = "<group>"; };
+		DD3A9F9F29C89C6D00B3DCB3 /* TabViewMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewMain.swift; sourceTree = "<group>"; };
+		DD3A9FA129C89DDF00B3DCB3 /* VistaNueva.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaNueva.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +65,11 @@
 				DD26C03829C3C6CB00303499 /* ContentView.swift */,
 				DD26C03A29C3C6CC00303499 /* Assets.xcassets */,
 				DD26C03C29C3C6CC00303499 /* Preview Content */,
+				DD26C04429C3C73E00303499 /* ventanaModal.swift */,
+				DD26C04829C7720300303499 /* SegundaVista.swift */,
+				DD26C04A29C773A200303499 /* TercerVista.swift */,
+				DD3A9F9F29C89C6D00B3DCB3 /* TabViewMain.swift */,
+				DD3A9FA129C89DDF00B3DCB3 /* VistaNueva.swift */,
 			);
 			path = ModalSwiftUI;
 			sourceTree = "<group>";
@@ -138,7 +153,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD26C03929C3C6CB00303499 /* ContentView.swift in Sources */,
+				DD3A9FA229C89DDF00B3DCB3 /* VistaNueva.swift in Sources */,
+				DD26C04529C3C73F00303499 /* ventanaModal.swift in Sources */,
 				DD26C03729C3C6CB00303499 /* ModalSwiftUIApp.swift in Sources */,
+				DD26C04929C7720300303499 /* SegundaVista.swift in Sources */,
+				DD26C04B29C773A200303499 /* TercerVista.swift in Sources */,
+				DD3A9FA029C89C6D00B3DCB3 /* TabViewMain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

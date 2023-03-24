@@ -11,7 +11,8 @@ import SwiftUI
 struct ModalSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+           // ContentView() cambio a tabViewMain para que ahora ese esea el archivo raíz
+            TabViewMain()
         }
     }
 }
